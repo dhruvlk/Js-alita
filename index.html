@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <style type="text/css">
+    body {
+      margin: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form id="resetValue">
+    <div style="display: flex">
+      1st Number : <input type="text" id="firstNumber" style="height: 20px;" /><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      2nd Number: <input type="text" id="secondNumber" style="height: 20px;" /><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <br>
+
+    <input type="button" onClick="multiplyBy()" Value="*" />
+    <input type="button" onClick="divideBy()" Value="/" />
+    <input type="button" onClick="minus()" Value="-" />
+    <input type="button" onClick="plus()" Value="+" />
+
+
+    <input type="button" value="Reset data" onClick="fun()" />
+
+
+    <p>The Result is : <br>
+      <span id="result"></span>
+    </p>
+  </form>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
